@@ -6,6 +6,10 @@ A simple Python-based cybersecurity tool that scans files for accidentally expos
 Leaked secrets in source code are a common security issue and can lead to unauthorized access, account compromise, and cloud abuse.
 
 ## Features
+- Scan single files or entire folders
+- Rich colored output for readability
+- Export scan results to JSON
+- Supports `.txt`, `.py`, `.env` files
 - Detects GitHub tokens
 - Detects AWS Access Keys
 - Detects JWT tokens
@@ -19,3 +23,4 @@ Leaked secrets in source code are a common security issue and can lead to unauth
 
 ```bash
 python scanner.py
+pip install rich
