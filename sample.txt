@@ -1,0 +1,8 @@
+username=admin
+password=123456
+
+api_key = "1234567890abcdef1234567890"
+
+aws_key = "AKIA1234567890ABCDEF"
+
+jwt = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4ifQ.signature"
