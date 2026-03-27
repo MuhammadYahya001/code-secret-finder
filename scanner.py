@@ -66,7 +66,7 @@ def export_to_json(findings, filename="scan_results.json"):
 
 if __name__ == "__main__":
     console.print("[bold yellow]Welcome to Code Secret Finder![/bold yellow]")
-    choice = console.input("Scan [f]ile or [d]irectory? (f/d): ").strip().lower()
+    choice = console.input("Scan (f)ile or (d)irectory? (f/d): ").strip().lower()
 
     findings = []
     if choice == "f":
