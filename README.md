@@ -1,26 +1,38 @@
-# code-secret-finder
+# Code Secret Finder
 
-A simple Python-based cybersecurity tool that scans files for accidentally exposed secrets such as API keys, AWS access keys, GitHub tokens, and JWTs.
+A **Python-based cybersecurity tool** to detect secrets like API keys, passwords, and sensitive data in files and folders. Features **folder scanning, colored output, and JSON export** for easy analysis.
 
-## Why this project matters
-Leaked secrets in source code are a common security issue and can lead to unauthorized access, account compromise, and cloud abuse.
+---
 
 ## Features
-- Scan single files or entire folders
-- Rich colored output for readability
-- Export scan results to JSON
-- Supports `.txt`, `.py`, `.env` files
-- Detects GitHub tokens
-- Detects AWS Access Keys
-- Detects JWT tokens
-- Detects generic API keys / secrets
 
-## Technologies Used
-- Python
-- Regex
+- ✅ Scan single files or entire directories  
+- ✅ Highlight secrets with **colorful output** using `rich`  
+- ✅ Export findings to **JSON format**  
+- ✅ Lightweight and easy to use  
 
-## How to Run
+---
+
+## Installation
+
+1. **Clone the repository**:
 
 ```bash
+git clone https://github.com/YourUsername/code-secret-finder.git
+cd code-secret-finder
+
+## Create a virtual environment (recommended):
+
+python -m venv venv
+
+## Activate the virtual environment:
+On PowerShell:
+
+.\venv\Scripts\Activate.ps1
+
+## Usage
+
+Run the scanner:
+
 python scanner.py
-pip install rich
+
